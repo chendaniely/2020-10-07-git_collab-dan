@@ -1,0 +1,135 @@
+    1  cd ~
+    2  mkdir git
+    3  cd git/
+    4  git clone https://github.com/chendaniely/2020-10-07-git_collab-dan.git
+    5  ls
+    6  cd 2020-10-07-git_collab-dan/
+    7  ls
+    8  ls -a
+    9  # edit the readme file, write in a definition for clone
+   10  # add/commit/push to gith
+   11  git init
+   12  nano README.md 
+   13  git status
+   14  git diff
+   15  git add README.md 
+   16  git status
+   17  git commit -m "define git init"
+   18  git status
+   19  git push origin main
+   20  git config --global user.email ""
+   21  git config --global user.email "chendaniely@gmail.com"
+   22  git branch
+   23  git branch -a
+   24  git log --oneline --graph
+   25  git branch my_branch
+   26  git log --oneline --graph
+   27  git checkout my_branch
+   28  git status
+   29  git log --oneline --graph
+   30  nano README.md 
+   31  git status
+   32  git add README.md 
+   33  git status
+   34  git commit -m "create new branch with git branch"
+   35  git status
+   36  git log --oneline --graph
+   37  cat README.md 
+   38  cat README.md 
+   39  git checkout main
+   40  cat README.md 
+   41  git checkout my_branch 
+   42  cat README.md 
+   43  git log --oneline --graph --all
+   44  git checkout main
+   45  git log --oneline --graph --all
+   46  git status
+   47  git checkout my_branch
+   48  cat README.md 
+   49  git push origin my_branch
+   50  git log --oneline --graph
+   51  git status
+   52  git checkout main
+   53  cat README.md 
+   54  git checkout main
+   55  git pull origin main
+   56  cat README.md 
+   57  git branch -a
+   58  git branch -d my_branch
+   59  git branch -a
+   60  git remote -v
+   61  git log --oneline --graph
+   62  git fetch --prune
+   63  git branch -a
+   64  git log --oneline --graph
+   65  git remote -v
+   66  git log
+   67  git log
+   68  git log --oneline
+   69  git log
+   70  git log --oneline
+   71  git checkout main
+   72  # git switch main
+   73  git pull origin main
+   74  cat README.md 
+   75  git checkout -b branches
+   76  nano README.md 
+   77  git status
+   78  git add README.md 
+   79  git status
+   80  git commit -m "more git branch defitions"
+   81  git push origin branches 
+   82  git checkout main
+   83  git checkout -b pr
+   84  git status
+   85  git log --oneline --graph --all
+   86  nano README.md 
+   87  git status
+   88  git checkout branches
+   89  git stash
+   90  git stash list
+   91  git checkout branches
+   92  git checout pr
+   93  git checkout pr
+   94  cat README.md 
+   95  git stash apply
+   96  cat README.md 
+   97  git stash clear
+   98  git status
+   99  git add README.md 
+  100  git commit -m "PR notes"
+  101  git push origin pr
+  102  git checkout master
+  103  git checkout main
+  104  git pull origin master
+  105  git pull origin main
+  106  git log --oneline --graph --all
+  107  git checkout pr
+  108  git rebase master
+  109  git rebase main
+  110  git status
+  111  git rebase --abort
+  112  git rebase main
+  113  git status
+  114  nano README.md 
+  115  git status
+  116  git add README.md 
+  117  git status
+  118  git rebase --continue
+  119  vim README.md 
+  120  git log --oneline --graph --all
+  121  git push origin pr
+  122  git push -f origin pr
+  123  git checkout main
+  124  git pull origin main
+  125  git branch -a
+  126  git branch -d branches pr
+  127  git fetch --prune
+  128  history
+  129  git push --force-with-lease origin main
+  130  git pull origin main
+  131  cat README.md 
+  132  git fetch --all
+  133  git remote -v
+  134  history
+  135  history > history.txt
