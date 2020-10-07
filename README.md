@@ -23,3 +23,7 @@ Git collaboration
 - update your branches (e.g., `git checkout main`; `git pull origin main`)
 - go to conflicting branch: `git checkout <BRANCH>`
 - `git rebase main`: will rebase <BRANCH> again `main`
+
+## Collaboration
+
+- add person as a collaborator
