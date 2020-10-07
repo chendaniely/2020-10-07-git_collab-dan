@@ -5,4 +5,6 @@ Git collaboration
     - make sure you are not already in a git repo when you `clone`
 
 - `git branch <NAME>`: creates a branch <NAME> where you currently are (HEAD)
-
+- `git branch -a`: shows you all local and remote branches
+- `git checkout <BRANCH>`: switch to the <BRANCH>
+- `git checkout -b <BRANCH>`: create <BRANCH> and then also checkout out <BRANCH>
